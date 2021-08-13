@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "get-signed-url"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1hbdca8wp56na"
+s3_prefix = "get-signed-url"
+region = "sa-east-1"
+capabilities = "CAPABILITY_IAM"
